@@ -2,16 +2,16 @@
    CORES: troque aqui e o site inteiro muda
    ========================================= */
 :root {
-  --cor-fundo: #f7f7fa;
-  --cor-clara: #ffffff;
-  --cor-texto: #23232f;
-  --cor-suave: #5f6070;
-  --cor-borda: #e2e2ea;
-  --cor-roxo: #7c5cff;
-  --cor-azul: #4a7bdc;
-  --cor-escura: #1f1f2e;
+  --cor-fundo: #EAF7E6;
+  --cor-clara: #F7FCF5;
+  --cor-texto: #1E2B22;
+  --cor-suave: #4F6355;
+  --cor-borda: #CFE8C8;
+  --cor-roxo: #B026FF;
+  --cor-azul: #2FE05A;
+  --cor-escura: #12301E;
   --raio: 14px;
-  --sombra: 0 6px 20px rgba(31, 31, 46, 0.08);
+  --sombra: 0 6px 20px rgba(18, 48, 30, 0.10);
 }
 
 /* ===== BASE ===== */
@@ -96,7 +96,7 @@ svg { width: 40px; height: 40px; fill: none; stroke: currentColor; stroke-width:
 .card__imagem {
   height: 140px; border-radius: 10px; margin-bottom: 18px;
   display: grid; place-items: center;
-  background: linear-gradient(135deg, #ece8ff, #e3ecfb); color: var(--cor-roxo);
+  background: linear-gradient(135deg, #EAF7E6, #B9F5C4); color: var(--cor-roxo);
 }
 .card__imagem svg { width: 56px; height: 56px; }
 .card h3 { text-transform: uppercase; font-size: 1rem; letter-spacing: 0.5px; margin-bottom: 8px; }
@@ -124,10 +124,10 @@ svg { width: 40px; height: 40px; fill: none; stroke: currentColor; stroke-width:
 .projeto:hover { transform: translateY(-4px); }
 .projeto__imagem { height: 190px; display: grid; place-items: center; color: #fff; }
 .projeto__imagem svg { width: 64px; height: 64px; }
-.projeto__imagem--1 { background: linear-gradient(135deg, #7c5cff, #4a7bdc); }
-.projeto__imagem--2 { background: linear-gradient(135deg, #4a7bdc, #34b3c9); }
-.projeto__imagem--3 { background: linear-gradient(135deg, #1f1f2e, #7c5cff); }
-.projeto__imagem--4 { background: linear-gradient(135deg, #b9a8ff, #9db8ef); }
+.projeto__imagem--1 { background: linear-gradient(135deg, #2FE05A, #12301E); }
+.projeto__imagem--2 { background: linear-gradient(135deg, #12301E, #4F6355); }
+.projeto__imagem--3 { background: linear-gradient(135deg, #1E2B22, #2FE05A); }
+.projeto__imagem--4 { background: linear-gradient(135deg, #9ED9A8, #CFE8C8); }
 .projeto h3 { padding: 18px 20px 4px; text-align: center; text-transform: uppercase; font-size: 1rem; }
 .projeto p { padding: 0 20px 22px; text-align: center; color: var(--cor-suave); font-size: 0.95rem; }
 
@@ -154,7 +154,7 @@ svg { width: 40px; height: 40px; fill: none; stroke: currentColor; stroke-width:
 .seta:hover { background: var(--cor-roxo); color: #fff; border-color: var(--cor-roxo); }
 
 /* ===== CHAMADA ===== */
-.chamada { background: #e9e7f3; padding: 64px 0; text-align: center; }
+.chamada { background: #D7EDCF; padding: 64px 0; text-align: center; }
 .chamada h2 { font-size: clamp(1.3rem, 3vw, 1.8rem); text-transform: uppercase; margin-bottom: 24px; }
 
 /* ===== RODAPÉ ===== */
@@ -192,4 +192,18 @@ svg { width: 40px; height: 40px; fill: none; stroke: currentColor; stroke-width:
   .habilidade { flex-basis: 100%; }
   .rodape__conteudo { flex-direction: column; }
   .contatos { border-left: 0; padding-left: 0; }
+}
+
+/* ===== DESTAQUES EM ROXO FLUORESCENTE ===== */
+h1, h2, h3, .logo, .titulo-secao, .ola { color: var(--cor-roxo); }
+.chamada h2 { color: var(--cor-azul); }
+.botao--principal:hover { color: var(--cor-escura); }
+.etiqueta { background: var(--cor-roxo); color: #fff; }
+
+/* ===== SPRITE DO STAR CATS ===== */
+.projeto__imagem img {
+  width: 160px;
+  height: 160px;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 4px 8px rgba(18, 48, 30, 0.25));
 }

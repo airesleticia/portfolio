@@ -1,8 +1,8 @@
-# Portfólio 2026 — Suellen Miranda
+# Portfólio 2026 — Letícia Aires
 
 Meu portfólio pessoal, feito com **HTML, CSS e JavaScript** puro e publicado com o **GitHub Pages**.
 
-🔗 **Site no ar:** https://suellenmiranda.github.io/Portfolio-2026/
+🔗 **Site no ar:** https://airesleticia.github.io/portfolio/
 
 ## Seções
 
