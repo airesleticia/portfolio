@@ -9,13 +9,41 @@
 </head>
 <body>
 
-  <!-- O conteúdo do portfólio entra aqui, uma seção por vez -->
+  <!-- ===== TOPO (MENU) ===== -->
+  <header class="topo">
+    <div class="container topo__conteudo">
+      <a href="#inicio" class="logo">SUELLEN MIRANDA</a>
+      <button class="menu-botao" aria-label="Abrir menu" aria-expanded="false">&#9776;</button>
+      <nav class="menu">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre mim</a>
+        <a href="#portfolio">Trabalhos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
   <main>
-    <section class="secao">
-      <div class="container">
-        <h1 class="titulo-secao">Portfólio em construção</h1>
+    <!-- ===== APRESENTAÇÃO ===== -->
+    <section id="inicio" class="apresentacao">
+      <div class="container apresentacao__conteudo">
+        <div class="apresentacao__texto">
+          <p class="ola">Olá!</p>
+          <h1>Eu sou Suellen Miranda</h1>
+          <p class="etiqueta">Desenvolvedora de Software</p>
+          <p class="frase">Crio sistemas web que resolvem problemas reais, do back-end à interface, com código organizado e versionado.</p>
+          <div class="botoes">
+            <a href="#contato" class="botao botao--principal">Contrate-me</a>
+            <a href="#portfolio" class="botao">Ver meu trabalho</a>
+          </div>
+        </div>
+        <div class="apresentacao__imagem">
+          <img src="https://github.com/SuellenMiranda.png" alt="Foto de Suellen Miranda">
+        </div>
       </div>
     </section>
   </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
